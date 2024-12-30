@@ -1,0 +1,217 @@
+#theme-slider {
+    margin-top: 15px;
+}
+
+.required-field {
+    color: red;
+}
+
+.subscribe-bnt {
+    border-right: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 0px;
+    background: #dddddd45;
+}
+
+.home-banner-bg {
+    background: #d3ecf3 !important;
+}
+
+.home-btn-banner-left {
+    font-size: 14px;
+    padding: 18px 45px;
+    font-weight: 700;
+    color: #fff !important;
+    background-color: #047ca0;
+    position: relative;
+    transition: all .3s;
+    display: inline-block;
+    line-height: 1;
+    border-radius: 0;
+    letter-spacing: .05em;
+}
+
+.home-btn-banner-left:hover {
+    background-color: #000 !important;
+}
+
+.home-top-title {
+    color: #047ca0 !important;
+}
+
+.dis-empty-value {
+    color: white !important;
+}
+
+.custom-rating {
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+.custom-rating .custom-yellow-star {
+    color: #ffa800;
+    font-size: calc(11px + 3*(100vw - 320px)/1600);
+    margin-right: 4px;
+}
+
+.custom-rating .custom-grey-star {
+    color: #e8ebf2;
+    font-size: calc(11px + 3*(100vw - 320px)/1600);
+    margin-right: 4px;
+}
+
+.product-color-cell-active {
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px black;
+}
+
+.size-box-custom {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.size-box-custom ul li {
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+    text-align: center;
+    width: 42px;
+    padding: 0px 9px 0px 9px;
+    border-radius: 4px;
+}
+.size-box-custom ul li a{
+    color: #444;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.size-box-custom ul li.active{
+    background-color: #ddd;
+}
+.product-det-rating-sec{
+    margin-bottom: 12px;
+    display: flex;
+    margin-top: 5px;
+    content: cen;
+
+}
+
+.product-det-rating-sec a{
+    text-align: center;
+    border-bottom: 1px solid #222;
+    color: #222;
+    display: inline-block;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+@media (max-width: 991px) {
+    .product-det-rating-sec {
+      text-align: center;
+         justify-content: center;
+    }
+  }
+
+  .product-info-custom {
+
+    margin-bottom: 20px;
+  }
+  
+  .product-info-custom-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .product-info-custom-label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #000000ad;
+
+  }
+  .product-info-custom-value {
+    font-weight: normal;
+  }
+  .prod-det-desc-box{
+    margin: 20px 10px 10px;
+  }
+  /* to fit image inside the div */
+  .prod-det-desc-box img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .review-item-prod-detail{
+    border-top: 1px dashed #eee;
+    margin-top: 30px;
+    padding-right: 200px;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  .review-item-prod-detail h3{
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .review-item-prod-detail span{
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .review-item-prod-detail strong{
+    font-weight: 600;
+  }
+  .review-item-prod-detail p{
+    margin-bottom: 0 !important;
+    padding: 0.5px !important;
+    color: #666 !important;
+  }
+
+
+  .star-rating-review-form {
+    font-size: 1.7rem;
+  }
+  
+  .star-rating-review-form span {
+    color: #d4dae8;
+    cursor: pointer;
+    margin-right: 0.2rem;
+    
+  }
+  
+  .star-rating-review-form span:hover,
+  .star-rating-review-form span.star-filled {
+    color: #ffa800;
+  }
+  .pagination-li-item-custom {
+    margin: 0 2px;
+  }
+  .order-history-view i{
+    color: #00baf2;
+    font-size: 18px;
+  }
+
+  .order-total-check-lbl{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 20px;
+  }
+  .order-total-check-val{
+    font-size: 18px;
+    line-height: 20px;
+    color: #00baf2;
+    font-weight: 600;
+  }
+  .product-variant-title{
+    color: #00baf2;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
