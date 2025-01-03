@@ -1,6 +1,7 @@
 const Config = {
     ADMIN_BASE_URL: 'https://localhost:7149/',
     //ADMIN_BASE_URL: 'http://noornashad-001-site2.etempurl.com/',
+    ADMIN_BASE_URL: 'https://mvapi.kgetechnologies.com/',
     WEBSITE_BASE_URL: 'https://localhost:3000/',
     DYNAMIC_METHOD_SUB_URL: 'api/v1/dynamic/dataoperation/',
     COMMON_CONTROLLER_SUB_URL: 'api/v1/common/',
@@ -57,33 +58,33 @@ const Config = {
         Completed: 3,
         Returned: 4,
         Refunded: 5
-       
+
     },
 
-    APP_SETTING : {
+    APP_SETTING: {
         DefaultCurrencyCode: "USD",
         DefaultCurrencySymbol: "$"
     },
 
-    PRODUCT_ATTRIBUTE_TYPES_ENUM : {
+    PRODUCT_ATTRIBUTE_TYPES_ENUM: {
         FixedValue: 1,
         Percentage: 2
     },
-    PRODUCT_ATTRIBUTE_ENUM : {
+    PRODUCT_ATTRIBUTE_ENUM: {
         Color: 1,
         Size: 2
     },
 
-    LANG_CODES_ENUM : {
+    LANG_CODES_ENUM: {
         English: "en",
         Arabic: "ar"
     },
-    
-    LANG_CODES_IDS_ENUM : {
+
+    LANG_CODES_IDS_ENUM: {
         English: 1,
         Arabic: 2
     }
-    
+
 }
 export default Config;
 
